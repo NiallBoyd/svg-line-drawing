@@ -6,7 +6,6 @@
   font-family: "Unica One", sans-serif;
 
   animation: fade 1s linear forwards;
-
 }
 
 #narwhal-eye {
@@ -15,12 +14,15 @@
 }
 
 @keyframes fade {
+
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
+
 }
 
 #narwhal-body {
@@ -43,7 +45,6 @@
   stroke-dasharray: 1710px;
   stroke-dashoffset: 1710px;
 }
-
 
 #rainbow-green {
   stroke-dasharray: 1600px;
@@ -70,8 +71,10 @@
 }
 
 @keyframes drawing-line {
+
   to {
-    stroke-dashoffset: 0px;
+
+    stroke-dashoffset: 1px;
   }
 
 }
